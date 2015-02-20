@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Biippo_test1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_emergency">EmergencyActivity</string>
+    <string name="title_activity_jump_start">JumpStartActivity</string>
+    <string name="title_activity_fluid_leak">FluidLeakActivity</string>
+    <string name="title_activity_warning_lights">WarningLightsActivity</string>
+    <string name="title_activity_jump_start_video">JumpStartVideo</string>
+    <string name="title_activity_jump_start_written">JumpStartWritten</string>
+    <string name="jumpstart">Jump Start</string>
+    <string name="fluidleak">Fluid Leak</string>
+    <string name="warninglights">Warning Lights</string>
+    <string name="title_activity_jump_start_pictures">JumpStartPictures</string>
+    <string name="intro_jumpstartwritten">How to jump start your car:</string>
+    <string name="jumpstartwritten">\n
+        &#8226;Move both cars next to each other\n
+        &#8226;Turn off both cars\n
+        &#8226;Connect red positive cable to dead car’s red positive terminal\n
+        &#8226;Connect red positive cable to live car’s red positive terminal\n
+        &#8226;Connect black negative cable to live car’s black negative terminal\n
+        &#8226;Connect black negative cable to dead car ground (engine block)\n
+        &#8226;Start up live car and let it run for a few minutes\n
+        &#8226;Start up dead car\n
+        &#8226;Disconnect cables in reverse order: dead car negative, live car negative, live car positive, dead car positive\n
+        &#8226;Drive dead car around for about half an hour to allow the battery to charge\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+        &#8226;Try not to let battery die again\n
+    </string>
+
+</resources>

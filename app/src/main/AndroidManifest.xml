@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.phat.biippo_test1" >
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmergencyActivity"
+            android:label="@string/title_activity_emergency" >
+            <intent-filter>
+                <action android:name="com.phat.emergency" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JumpStartActivity"
+            android:label="@string/title_activity_jump_start" >
+            <intent-filter>
+                <action android:name="com.phat.jumpstart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FluidLeakActivity"
+            android:label="@string/title_activity_fluid_leak" >
+            <intent-filter>
+                <action android:name="com.phat.fluidleak" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WarningLightsActivity"
+            android:label="@string/title_activity_warning_lights" >
+            <intent-filter>
+                <action android:name="com.phat.warninglights" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JumpStartVideo"
+            android:label="@string/title_activity_jump_start_video" >
+            <intent-filter>
+                <action android:name="com.phat.jumpstartvideo" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JumpStartPictures"
+            android:label="@string/title_activity_jump_start_pictures" >
+            <intent-filter>
+                <action android:name="com.phat.jumpstartpictures" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JumpStartWritten"
+            android:label="@string/title_activity_jump_start_written" >
+            <intent-filter>
+                <action android:name="com.phat.jumpstartwritten" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
