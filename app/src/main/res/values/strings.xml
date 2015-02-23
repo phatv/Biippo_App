@@ -34,5 +34,18 @@
         &#8226;Try not to let battery die again\n
         &#8226;Try not to let battery die again\n
     </string>
+    <string name="title_activity_activity_tire">activity_tire</string>
+    <string name="title_activity_change_tire">changeTire</string>
+    <string name="title_activity_tire_presure">tirePresure</string>
+    <string name="title_activity_tire_rotation">tireRotation</string>
+    <string name="title_activity_change_tire_picture">changeTire_picture</string>
+    <string name="title_activity_change_tire_video">changeTire_video</string>
+    <string name="title_activity_change_tire_written">changeTire_written</string>
+    <string name="title_activity_tire_presure_picture">tirePresure_picture</string>
+    <string name="title_activity_tire_presure_video">tirePresure_video</string>
+    <string name="title_activity_tire_presure_written">tirePresure_written</string>
+    <string name="title_activity_tire_rotation_picture">tireRotation_picture</string>
+    <string name="title_activity_tire_rotation_video">tireRotation_video</string>
+    <string name="title_activity_tire_rotation_written">tireRotation_written</string>
 
 </resources>

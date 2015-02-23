@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton button_emer;
+    ImageButton button_emer, button_tire;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,9 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         button_emer = (ImageButton)findViewById(R.id.button_emer);
         button_emer.setOnClickListener(this);
+
+        button_tire = (ImageButton)findViewById(R.id.button_Tire);
+        button_tire.setOnClickListener(this);
     }
 
 
@@ -57,6 +60,13 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.button_emer:
                 emer_click();
                 break;
+            case R.id.button_Tire:
+                tire_click();
+                break;
         }
+    }
+
+    private void tire_click() {
+        startActivity(new Intent("main.tire"));
     }
 }
