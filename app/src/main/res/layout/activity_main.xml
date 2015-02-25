@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/button_emer"
         android:layout_marginTop="50dp"
-        android:background="@drawable/button_emer"
+        android:src="@drawable/button_emer"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
