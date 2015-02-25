@@ -47,5 +47,10 @@
     <string name="title_activity_tire_rotation_picture">tireRotation_picture</string>
     <string name="title_activity_tire_rotation_video">tireRotation_video</string>
     <string name="title_activity_tire_rotation_written">tireRotation_written</string>
+    <string name="title_activity_oil_change_video">oilChange_video</string>
+    <string name="title_activity_oil_change_picture">oilChange_picture</string>
+    <string name="title_activity_oil_change_written">oilChange_written</string>
+    <string name="title_activity_engine">engine</string>
+    <string name="title_activity_oil_page">oilPage</string>
 
 </resources>

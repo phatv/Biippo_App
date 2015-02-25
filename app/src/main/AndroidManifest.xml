@@ -17,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".EmergencyActivity"
             android:label="@string/title_activity_emergency" >
@@ -27,7 +26,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".JumpStartActivity"
             android:label="@string/title_activity_jump_start" >
@@ -46,7 +44,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".WarningLightsActivity"
             android:label="@string/title_activity_warning_lights" >
@@ -56,7 +53,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".JumpStartVideo"
             android:label="@string/title_activity_jump_start_video" >
@@ -66,7 +62,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".JumpStartPictures"
             android:label="@string/title_activity_jump_start_pictures" >
@@ -76,7 +71,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".JumpStartWritten"
             android:label="@string/title_activity_jump_start_written" >
@@ -86,121 +80,162 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".activity_tire"
             android:label="@string/title_activity_activity_tire" >
             <intent-filter>
-                <action android:name="main.tire"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".changeTire"
             android:label="@string/title_activity_change_tire" >
             <intent-filter>
-                <action android:name="main.tire.changeTire"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.changeTire" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tirePresure"
             android:label="@string/title_activity_tire_presure" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tirePresure" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tireRotation"
             android:label="@string/title_activity_tire_rotation" >
             <intent-filter>
-                <action android:name="main.tire.tireRotation"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tireRotation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".changeTire_picture"
             android:label="@string/title_activity_change_tire_picture" >
             <intent-filter>
-                <action android:name="main.tire.changeTire.picture"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.changeTire.picture" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".changeTire_video"
             android:label="@string/title_activity_change_tire_video" >
             <intent-filter>
-                <action android:name="main.tire.changeTire.video"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.changeTire.video" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".changeTire_written"
             android:label="@string/title_activity_change_tire_written" >
             <intent-filter>
-                <action android:name="main.tire.changeTire.written"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.changeTire.written" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tirePresure_picture"
             android:label="@string/title_activity_tire_presure_picture" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.picture"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tirePresure.picture" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tirePresure_video"
             android:label="@string/title_activity_tire_presure_video" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.video"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tirePresure.video" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tirePresure_written"
             android:label="@string/title_activity_tire_presure_written" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.written"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tirePresure.written" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tireRotation_picture"
             android:label="@string/title_activity_tire_rotation_picture" >
             <intent-filter>
-                <action android:name="main.tire.tireRotation.picture"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tireRotation.picture" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tireRotation_video"
             android:label="@string/title_activity_tire_rotation_video" >
             <intent-filter>
-                <action android:name="main.tire.tireRotation.video"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tireRotation.video" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".tireRotation_written"
             android:label="@string/title_activity_tire_rotation_written" >
             <intent-filter>
-                <action android:name="main.tire.tireRotation.written"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="main.tire.tireRotation.written" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".engine"
+            android:label="@string/title_activity_engine" >
+            <intent-filter>
+                <action android:name="com.phat.biippo_test1.engine" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oilChange_video"
+            android:label="@string/title_activity_oil_change_video" >
+            <intent-filter>
+                <action android:name="com.phat.biippo_test1.oilChange_video" />
+                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+        </activity>
+        <activity
+            android:name=".oilChange_picture"
+            android:label="@string/title_activity_oil_change_picture" >
+            <intent-filter>
+                <action android:name="com.phat.biippo_test1.oilChange_picture" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oilChange_written"
+            android:label="@string/title_activity_oil_change_written" >
+            <intent-filter>
+                <action android:name="com.phate.biippo_test1.oilChange_written" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oilPage"
+            android:label="@string/title_activity_oil_page" >
+            <intent-filter>
+            <action android:name="com.phat.biippo_test1.oilPage" />
+            <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

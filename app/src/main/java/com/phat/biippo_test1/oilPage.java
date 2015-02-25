@@ -9,30 +9,28 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener{
+public class oilPage extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton button_emer, button_tire, button_engine;
-
+    ImageButton oilPicture, oilVideo, oilWritten;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_oil_page);
+        oilPicture = (ImageButton)findViewById(R.id.oilPicture);
+        oilPicture.setOnClickListener(this);
 
-        button_emer = (ImageButton)findViewById(R.id.button_emer);
-        button_emer.setOnClickListener(this);
+        oilVideo = (ImageButton)findViewById(R.id.oilVideo);
+        oilVideo.setOnClickListener(this);
 
-        button_tire = (ImageButton)findViewById(R.id.button_Tire);
-        button_tire.setOnClickListener(this);
-
-        button_engine =(ImageButton)findViewById(R.id.button_engine);
-        button_engine.setOnClickListener(this);
+        oilWritten = (ImageButton)findViewById(R.id.oilWritten);
+        oilWritten.setOnClickListener(this);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_oil_page, menu);
         return true;
     }
 
@@ -51,30 +49,19 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         return super.onOptionsItemSelected(item);
     }
 
-    private void emer_click()
+    public void onClick(View v)
     {
-        startActivity(new Intent("com.phat.emergency"));
-    }
-
-    @Override
-    public void onClick(View v) {
-        switch (v.getId())
+        switch(v.getId())
         {
-            case R.id.button_emer:
-                emer_click();
+            case R.id.oilPicture:
+                startActivity(new Intent("com.phat.biippo_test1.oilChange_picture"));
                 break;
-            case R.id.button_Tire:
-                tire_click();
+            case R.id.oilVideo:
+                startActivity(new Intent("com.phat.biippo_test1.oilChange_video"));
                 break;
-            case R.id.button_engine:
-                engine_click();
+            case R.id.oilWritten:
+                startActivity(new Intent("com.phat.biippo_test1.oilChange_written"));
                 break;
         }
     }
-
-    private void tire_click() {
-        startActivity(new Intent("main.tire"));
-    }
-
-    private void engine_click() { startActivity(new Intent("com.phat.biippo_test1.engine"));}
 }
