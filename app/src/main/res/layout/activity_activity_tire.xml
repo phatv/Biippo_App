@@ -21,13 +21,13 @@
         android:id="@+id/button_tirePresure"
         android:layout_below="@+id/textview_title"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/button_emer" />
+        android:src="@drawable/button_tire_pressure" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_tireRotation"
-        android:src="@drawable/button_emer"
+        android:src="@drawable/button_tire_rotation"
         android:layout_below="@+id/button_tirePresure"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_changeTire"
-        android:src="@drawable/button_emer"
+        android:src="@drawable/button_tire_change"
         android:layout_below="@+id/button_tireRotation"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

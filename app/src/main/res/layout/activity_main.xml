@@ -22,7 +22,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_Tire"
-        android:background="@drawable/button_emer"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_tire"
         android:layout_below="@+id/button_emer"
         android:layout_centerHorizontal="true" />
 
