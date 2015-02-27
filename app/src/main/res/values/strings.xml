@@ -52,5 +52,8 @@
     <string name="title_activity_oil_change_written">oilChange_written</string>
     <string name="title_activity_engine">engine</string>
     <string name="title_activity_oil_page">oilPage</string>
+    <string name="title_activity_fluid_leak_video">FluidLeakVideo</string>
+    <string name="title_activity_fluid_leak_picture">FluidLeakPicture</string>
+    <string name="title_activity_fluid_leak_written">FluidLeakWritten</string>
 
 </resources>

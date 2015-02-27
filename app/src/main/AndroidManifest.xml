@@ -211,14 +211,16 @@
             android:label="@string/title_activity_oil_change_video" >
             <intent-filter>
                 <action android:name="com.phat.biippo_test1.oilChange_video" />
+
                 <category android:name="android.intent.category.DEFAULT" />
-             </intent-filter>
+            </intent-filter>
         </activity>
         <activity
             android:name=".oilChange_picture"
             android:label="@string/title_activity_oil_change_picture" >
             <intent-filter>
                 <action android:name="com.phat.biippo_test1.oilChange_picture" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -227,6 +229,7 @@
             android:label="@string/title_activity_oil_change_written" >
             <intent-filter>
                 <action android:name="com.phat.biippo_test1.oilChange_written" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -234,9 +237,22 @@
             android:name=".oilPage"
             android:label="@string/title_activity_oil_page" >
             <intent-filter>
-            <action android:name="com.phat.biippo_test1.oilPage" />
-            <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.phat.biippo_test1.oilPage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FluidLeakVideo"
+            android:label="@string/title_activity_fluid_leak_video" >
+        </activity>
+        <activity
+            android:name=".FluidLeakPicture"
+            android:label="@string/title_activity_fluid_leak_picture" >
+        </activity>
+        <activity
+            android:name=".FluidLeakWritten"
+            android:label="@string/title_activity_fluid_leak_written" >
         </activity>
     </application>
 

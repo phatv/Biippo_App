@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="50dp"
-        android:background="@drawable/button_jump"/>
+        android:src="@drawable/button_jump"/>
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_below="@+id/button_jumpstart"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/button_fluid" />
+        android:src="@drawable/button_fluid" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -35,6 +35,6 @@
         android:layout_below="@+id/button_fluidleak"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/button_warning" />
+        android:src="@drawable/button_warning" />
 
 </RelativeLayout>
