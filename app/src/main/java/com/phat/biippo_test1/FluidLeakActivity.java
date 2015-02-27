@@ -1,39 +1,42 @@
 package com.phat.biippo_test1;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 
-public class FluidLeakActivity extends ActionBarActivity {
+public class FluidLeakActivity extends ActionBarActivity implements View.OnClickListener{
+
+    ImageButton picture, video, written;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fluid_leak);
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fluid_leak, menu);
-        return true;
+        picture = (ImageButton)findViewById(R.id.button_fluidleak_pictures);
+        video = (ImageButton)findViewById(R.id.button_fluidleak_video);
+        written = (ImageButton)findViewById(R.id.button_fluidleak_written);
+        picture.setOnClickListener(this);
+        video.setOnClickListener(this);
+        written.setOnClickListener(this);
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.button_fluidleak_pictures:
+                startActivity(new Intent(FluidLeakActivity.this, FluidLeakPicture.class));
+                break;
+            case R.id.button_fluidleak_written:
+                startActivity(new Intent(FluidLeakActivity.this, FluidLeakWritten.class));
+                break;
+            case R.id.button_fluidleak_video:
+                startActivity(new Intent(FluidLeakActivity.this, FluidLeakVideo.class));
+                break;
         }
-
-        return super.onOptionsItemSelected(item);
     }
 }
