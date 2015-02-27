@@ -16,13 +16,15 @@
         android:id="@+id/oilPicture"
         android:layout_below="@+id/textView6"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/oil_pictures" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/oilVideo"
+        android:layout_below="@+id/oilPicture"
+        android:layout_marginTop="20dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/oil_video" />
@@ -33,6 +35,7 @@
         android:id="@+id/oilWritten"
         android:src="@drawable/oil_written"
         android:layout_below="@+id/oilVideo"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
