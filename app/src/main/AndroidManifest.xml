@@ -225,15 +225,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".oilChange_written"
-            android:label="@string/title_activity_oil_change_written" >
-            <intent-filter>
-                <action android:name="com.phat.biippo_test1.oilChange_written" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".oilPage"
             android:label="@string/title_activity_oil_page" >
             <intent-filter>

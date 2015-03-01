@@ -14,28 +14,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/oilPicture"
+        android:layout_marginTop="106dp"
+        android:src="@drawable/oil_pictures"
         android:layout_below="@+id/textView6"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/oil_pictures" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/oilVideo"
+        android:layout_marginTop="98dp"
+        android:src="@drawable/oil_video"
         android:layout_below="@+id/oilPicture"
-        android:layout_marginTop="20dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/oil_video" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/oilWritten"
-        android:src="@drawable/oil_written"
-        android:layout_below="@+id/oilVideo"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

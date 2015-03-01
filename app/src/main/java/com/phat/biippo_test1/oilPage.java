@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class oilPage extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton oilPicture, oilVideo, oilWritten;
+    ImageButton oilPicture, oilVideo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +22,6 @@ public class oilPage extends ActionBarActivity implements View.OnClickListener{
         oilVideo = (ImageButton)findViewById(R.id.oilVideo);
         oilVideo.setOnClickListener(this);
 
-        oilWritten = (ImageButton)findViewById(R.id.oilWritten);
-        oilWritten.setOnClickListener(this);
     }
 
 
@@ -59,9 +57,7 @@ public class oilPage extends ActionBarActivity implements View.OnClickListener{
             case R.id.oilVideo:
                 startActivity(new Intent("com.phat.biippo_test1.oilChange_video"));
                 break;
-            case R.id.oilWritten:
-                startActivity(new Intent("com.phat.biippo_test1.oilChange_written"));
-                break;
+
         }
     }
 }
