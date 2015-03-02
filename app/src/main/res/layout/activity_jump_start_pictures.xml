@@ -141,7 +141,7 @@
                 android:maxLines = "100"
                 android:scrollbars = "vertical"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="8. Drive the dead car around for about half and hour to allow the battery to recharge. \n"
+                android:text="8. Drive the dead car around for about half an hour to allow the battery to recharge. \n"
                 android:id="@+id/JumpText9"
                 android:layout_weight="0.84" />
         </LinearLayout>
