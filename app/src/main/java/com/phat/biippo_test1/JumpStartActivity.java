@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -51,7 +53,8 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
 
     private void video_click()
     {
-        startActivity(new Intent("com.phat.jumpstartvideo"));
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=MEtJnwnjcU4")));
+        Log.i("Video", "Video Playing....");
     }
 
     private void pictures_click()
