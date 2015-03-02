@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -6,7 +6,145 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.phat.biippo_test1.JumpStartPictures">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
 
-</RelativeLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic1"
+                android:src="@drawable/jump1"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1. Move both cars next to each other and turn off both cars. \n"
+                android:id="@+id/JumpText1"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic2"
+                android:src="@drawable/jump2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="2. Have your booster cables ready. \n"
+                android:id="@+id/JumpText2"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic3"
+                android:src="@drawable/jump3"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="3. Connect red positive cable to dead car’s red positive terminal. \n"
+                android:id="@+id/JumpText3"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic4"
+                android:src="@drawable/jump4"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="4. Connect red positive cable to live car’s red positive terminal and connect black negative cable to live car’s black negative terminal. \n"
+                android:id="@+id/JumpText4"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic5"
+                android:src="@drawable/jump5"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="5. Connect black negative cable to dead car ground (like the engine block). \n"
+                android:id="@+id/JumpText5"
+                android:layout_weight="0.84" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/JumpPic6"
+                android:src="@drawable/jump6"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="6. Start up the live car and let it run for a few minutes then start up the dead car. \n"
+                android:id="@+id/JumpText6"
+                android:layout_weight="0.84" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="7. Disconnect the cables in reverse order: dead car negative, live car negative, live car positive, dead car positive. \n"
+                android:id="@+id/JumpText7"
+                android:layout_weight="0.84" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="8. Drive the dead car around for about half and hour to allow the battery to recharge. \n"
+                android:id="@+id/JumpText9"
+                android:layout_weight="0.84" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
