@@ -95,7 +95,7 @@
                 android:scrollbars = "vertical"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="
-4.Place a drain-pan underneath the plug, and remove the bolt with a 17mm wrench. Wait for the oil to finish draining into the pan\n"
+4.Place a drain-pan underneath the plug, and remove the bolt with a 17mm wrench.\n"
                 android:id="@+id/textView4"
                 android:layout_below="@+id/picture4"
                 android:layout_alignParentRight="true"
@@ -115,13 +115,8 @@
                 android:maxLines = "100"
                 android:scrollbars = "vertical"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="
-5.Using the 17mm wrench, tighten the drain-bolt back on\n"
-                android:id="@+id/textView5"
-                android:layout_below="@+id/picture5"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_weight="0.84" />
+                android:text ="
+5. Wait for the oil to finish draining into the pan.\n"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -137,9 +132,9 @@
                 android:scrollbars = "vertical"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="
-6.With 4 quarts of 5W-20 synthetic oil, pour the oil into the hole where you first removed the oil cap\n"
-                android:id="@+id/textView6"
-                android:layout_below="@+id/picture6"
+5.Using the 17mm wrench, tighten the drain-bolt back on\n"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/picture5"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
                 android:layout_weight="0.84" />
@@ -151,6 +146,19 @@
                 android:src="@drawable/oil7"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+6.With 4 quarts of 5W-20 synthetic oil, pour the oil into the hole where you first removed the oil cap\n"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/picture6"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_weight="0.84" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
