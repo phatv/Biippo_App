@@ -33,8 +33,6 @@
         android:id="@+id/button_engine"
         android:layout_marginTop="20dp"
         android:src="@drawable/button_engine"
-        android:layout_below="@+id/button_Tire"
-        android:layout_alignLeft="@+id/button_Tire"
-        android:layout_alignStart="@+id/button_Tire" />
+        android:layout_below="@+id/button_Tire" />
 
 </RelativeLayout>

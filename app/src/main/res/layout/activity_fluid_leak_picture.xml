@@ -48,7 +48,7 @@ Sometimes it's bright orange or pink. But, usually it's green. It has a bit of a
                 android:layout_height="wrap_content"
                 android:id="@+id/leak2"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oil2"
+                android:src="@drawable/leak2"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView

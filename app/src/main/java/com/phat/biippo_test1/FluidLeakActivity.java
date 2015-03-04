@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class FluidLeakActivity extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton picture, video, written;
+    ImageButton picture, video;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,10 +17,8 @@ public class FluidLeakActivity extends ActionBarActivity implements View.OnClick
         setContentView(R.layout.activity_fluid_leak);
         picture = (ImageButton)findViewById(R.id.button_jumpstart_pictures);
         video = (ImageButton)findViewById(R.id.button_jumpstart_video);
-        written = (ImageButton)findViewById(R.id.button_jumpstart_written);
         picture.setOnClickListener(this);
         video.setOnClickListener(this);
-        written.setOnClickListener(this);
     }
 
     @Override
@@ -28,9 +26,6 @@ public class FluidLeakActivity extends ActionBarActivity implements View.OnClick
         switch (v.getId()){
             case R.id.button_jumpstart_pictures:
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakPicture.class));
-                break;
-            case R.id.button_jumpstart_written:
-                startActivity(new Intent(FluidLeakActivity.this, FluidLeakWritten.class));
                 break;
             case R.id.button_jumpstart_video:
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakVideo.class));

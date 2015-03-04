@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 
 public class JumpStartActivity extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton button_video, button_pictures, button_written;
+    ImageButton button_video, button_instr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +22,8 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
 
         button_video = (ImageButton)findViewById(R.id.button_jumpstart_video);
         button_video.setOnClickListener(this);
-        button_pictures = (ImageButton)findViewById(R.id.button_jumpstart_pictures);
-        button_pictures.setOnClickListener(this);
-        button_written = (ImageButton)findViewById(R.id.button_jumpstart_written);
-        button_written.setOnClickListener(this);
+        button_instr = (ImageButton)findViewById(R.id.button_jumpstart_instr);
+        button_instr.setOnClickListener(this);
     }
 
 
@@ -57,15 +55,11 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
         Log.i("Video", "Video Playing....");
     }
 
-    private void pictures_click()
+    private void instr_click()
     {
         startActivity(new Intent("com.phat.jumpstartpictures"));
     }
 
-    private void written_click()
-    {
-        startActivity(new Intent("com.phat.jumpstartwritten"));
-    }
 
     @Override
     public void onClick(View v) {
@@ -74,11 +68,8 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
             case R.id.button_jumpstart_video:
                 video_click();
                 break;
-            case R.id.button_jumpstart_pictures:
-                pictures_click();
-                break;
-            case R.id.button_jumpstart_written:
-                written_click();
+            case R.id.button_jumpstart_instr:
+                instr_click();
                 break;
         }
     }
