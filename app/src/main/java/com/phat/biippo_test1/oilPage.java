@@ -55,7 +55,7 @@ public class oilPage extends ActionBarActivity implements View.OnClickListener{
         {
             case R.id.oilPicture:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=7xzQ-RIr0Cw")));
-                Log.i("Video", "Video Playing....");
+                Log.i("Video", "Video Playing...");
                 break;
             case R.id.oilVideo:
                 startActivity(new Intent("com.phat.biippo_test1.oilChange_video"));
