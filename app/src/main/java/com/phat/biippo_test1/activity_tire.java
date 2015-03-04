@@ -22,7 +22,7 @@ public class activity_tire extends ActionBarActivity implements View.OnClickList
 
         tirePresure = (ImageButton)findViewById(R.id.button_tirePresure);
         tirePresure.setOnClickListener(this);
-        //test
+
         tireRotation = (ImageButton)findViewById(R.id.button_tireRotation);
         tireRotation.setOnClickListener(this);
     }
