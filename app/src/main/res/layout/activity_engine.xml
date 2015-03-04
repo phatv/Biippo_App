@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/oilButton"
-        android:src="@drawable/oil_button"
+        android:src="@drawable/button_oil"
         android:layout_below="@id/textview_engine"
         android:layout_marginTop="40dp"
         android:layout_centerVertical="true"
