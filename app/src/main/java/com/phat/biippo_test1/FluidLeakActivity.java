@@ -15,9 +15,9 @@ public class FluidLeakActivity extends ActionBarActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fluid_leak);
-        picture = (ImageButton)findViewById(R.id.button_fluidleak_pictures);
-        video = (ImageButton)findViewById(R.id.button_fluidleak_video);
-        written = (ImageButton)findViewById(R.id.button_fluidleak_written);
+        picture = (ImageButton)findViewById(R.id.button_jumpstart_pictures);
+        video = (ImageButton)findViewById(R.id.button_jumpstart_video);
+        written = (ImageButton)findViewById(R.id.button_jumpstart_written);
         picture.setOnClickListener(this);
         video.setOnClickListener(this);
         written.setOnClickListener(this);
@@ -26,13 +26,13 @@ public class FluidLeakActivity extends ActionBarActivity implements View.OnClick
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button_fluidleak_pictures:
+            case R.id.button_jumpstart_pictures:
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakPicture.class));
                 break;
-            case R.id.button_fluidleak_written:
+            case R.id.button_jumpstart_written:
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakWritten.class));
                 break;
-            case R.id.button_fluidleak_video:
+            case R.id.button_jumpstart_video:
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakVideo.class));
                 break;
         }

@@ -6,7 +6,6 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.phat.biippo_test1.oilChange_picture">
 
-    <!--remove when brody adds pictuers
         <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -23,7 +22,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/picture1"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/oPic1"
+            android:src="@drawable/oil1"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.22" />
         <TextView
@@ -44,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture2"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic2"
+                android:src="@drawable/oil2"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -65,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture3"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic3"
+                android:src="@drawable/oil3"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -86,7 +85,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture4"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic4"
+                android:src="@drawable/oil4"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -107,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture5"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic5"
+                android:src="@drawable/oil5"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -128,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture6"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic6"
+                android:src="@drawable/oil6"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -149,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/picture7"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/oPic7"
+                android:src="@drawable/oil7"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
             <TextView
@@ -166,7 +165,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_weight="0.84" />
         </LinearLayout>
-    </ScrollView>-->
+    </ScrollView>
 
 
 

@@ -13,7 +13,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_fluidleak_video"
+        android:id="@+id/button_jumpstart_video"
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
@@ -22,8 +22,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_fluidleak_pictures"
-        android:layout_below="@+id/button_fluidleak_video"
+        android:id="@+id/button_jumpstart_pictures"
+        android:layout_below="@+id/button_jumpstart_video"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:src="@drawable/button_pictures" />
@@ -31,8 +31,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_fluidleak_written"
-        android:layout_below="@+id/button_fluidleak_pictures"
+        android:id="@+id/button_jumpstart_written"
+        android:layout_below="@+id/button_jumpstart_pictures"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:src="@drawable/button_written" />

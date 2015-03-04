@@ -20,11 +20,11 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jump_start);
 
-        button_video = (ImageButton)findViewById(R.id.button_fluidleak_video);
+        button_video = (ImageButton)findViewById(R.id.button_jumpstart_video);
         button_video.setOnClickListener(this);
-        button_pictures = (ImageButton)findViewById(R.id.button_fluidleak_pictures);
+        button_pictures = (ImageButton)findViewById(R.id.button_jumpstart_pictures);
         button_pictures.setOnClickListener(this);
-        button_written = (ImageButton)findViewById(R.id.button_fluidleak_written);
+        button_written = (ImageButton)findViewById(R.id.button_jumpstart_written);
         button_written.setOnClickListener(this);
     }
 
@@ -71,13 +71,13 @@ public class JumpStartActivity extends ActionBarActivity implements View.OnClick
     public void onClick(View v) {
         switch (v.getId())
         {
-            case R.id.button_fluidleak_video:
+            case R.id.button_jumpstart_video:
                 video_click();
                 break;
-            case R.id.button_fluidleak_pictures:
+            case R.id.button_jumpstart_pictures:
                 pictures_click();
                 break;
-            case R.id.button_fluidleak_written:
+            case R.id.button_jumpstart_written:
                 written_click();
                 break;
         }
