@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -52,7 +54,8 @@ public class oilPage extends ActionBarActivity implements View.OnClickListener{
         switch(v.getId())
         {
             case R.id.oilPicture:
-                startActivity(new Intent("com.phat.biippo_test1.oilChange_picture"));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=7xzQ-RIr0Cw")));
+                Log.i("Video", "Video Playing....");
                 break;
             case R.id.oilVideo:
                 startActivity(new Intent("com.phat.biippo_test1.oilChange_video"));
