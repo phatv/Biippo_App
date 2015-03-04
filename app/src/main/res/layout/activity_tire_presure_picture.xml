@@ -11,11 +11,10 @@
         android:layout_height="wrap_content"
         android:text="Step 1"
         android:id="@+id/textView12"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="89dp"
         android:textColor="@android:color/holo_red_light"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:layout_below="@+id/textView16" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,7 +35,7 @@
         android:layout_below="@+id/textView13"
         android:layout_alignLeft="@+id/textView12"
         android:layout_alignStart="@+id/textView12"
-        android:layout_marginTop="32dp" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +43,7 @@
         android:text="Use a tire gauge that can be purchased at local department store and auto part store to check tires’ pressure. Place your tire gauge onto the tire’s valve stem and read the output. You should always check the pressure when the tire is cold, which means the car has not been driven within 3 hours or a mile."
         android:id="@+id/textView15"
         android:textSize="15dp"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView14"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -53,10 +52,10 @@
         android:layout_height="wrap_content"
         android:text="Check Tire Pressure"
         android:id="@+id/textView16"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:textColor="@android:color/holo_orange_dark"
-        android:textSize="25dp" />
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="300dp"
@@ -65,7 +64,8 @@
         android:id="@+id/imageView"
         android:src="@drawable/tirepressure1"
         android:scaleType="fitXY"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
 
 </RelativeLayout>
