@@ -47,6 +47,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         if (id == R.id.action_settings) {
             return true;
         }
+        if (id == R.id.about) {
+            startActivity(new Intent("com.phat.about"));
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

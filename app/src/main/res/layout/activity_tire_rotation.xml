@@ -18,28 +18,19 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_tireRotation_picture"
+        android:id="@+id/button_tireRotation_video"
         android:layout_below="@+id/textview_tireRotation_title"
         android:layout_marginTop="40dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/button_pictures" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_tireRotation_video"
-        android:layout_below="@+id/button_tireRotation_picture"
-        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/button_video" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_tireRotation_written"
+        android:id="@+id/button_tireRotation_picture"
         android:layout_below="@+id/button_tireRotation_video"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/button_written" />
+        android:src="@drawable/button_instructions" />
 
 </RelativeLayout>

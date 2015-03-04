@@ -245,6 +245,15 @@
             android:name=".FluidLeakWritten"
             android:label="@string/title_activity_fluid_leak_written" >
         </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+            <intent-filter>
+                <action android:name="com.phat.about" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

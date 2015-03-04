@@ -7,7 +7,7 @@
         android:orderInCategory="100"
         app:showAsAction="never" />
 
-    <item android:id="@+id/exit_the_app"
+    <item android:id="@+id/about"
         android:title="About"
         android:orderInCategory="101"
         app:showAsAction="never" />
