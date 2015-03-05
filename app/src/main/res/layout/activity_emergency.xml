@@ -23,13 +23,5 @@
         android:layout_marginTop="20dp"
         android:src="@drawable/button_fluid" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button_warninglights"
-        android:layout_below="@+id/button_fluidleak"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/button_warning" />
 
 </RelativeLayout>
