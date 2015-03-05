@@ -15,45 +15,26 @@
     <string name="warninglights">Warning Lights</string>
     <string name="title_activity_jump_start_pictures">Jump Start Instructions</string>
     <string name="intro_jumpstartwritten">How to jump start your car:</string>
-    <string name="jumpstartwritten">\n
-        &#8226;Move both cars next to each other\n
-        &#8226;Turn off both cars\n
-        &#8226;Connect red positive cable to dead car’s red positive terminal\n
-        &#8226;Connect red positive cable to live car’s red positive terminal\n
-        &#8226;Connect black negative cable to live car’s black negative terminal\n
-        &#8226;Connect black negative cable to dead car ground (engine block)\n
-        &#8226;Start up live car and let it run for a few minutes\n
-        &#8226;Start up dead car\n
-        &#8226;Disconnect cables in reverse order: dead car negative, live car negative, live car positive, dead car positive\n
-        &#8226;Drive dead car around for about half an hour to allow the battery to charge\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-        &#8226;Try not to let battery die again\n
-    </string>
     <string name="title_activity_activity_tire">Tires</string>
-    <string name="title_activity_change_tire">Change Tire</string>
+    <string name="title_activity_change_tire">Tire Change</string>
     <string name="title_activity_tire_pressure">Tire Pressure</string>
     <string name="title_activity_tire_rotation">Tire Rotation</string>
-    <string name="title_activity_change_tire_picture">Change Tire Picture</string>
-    <string name="title_activity_change_tire_video">changeTire_video</string>
-    <string name="title_activity_change_tire_written">changeTire_written</string>
-    <string name="title_activity_tire_pressure_picture">tirePressure_picture</string>
-    <string name="title_activity_tire_pressure_video">tirePressure_video</string>
-    <string name="title_activity_tire_pressure_written">tirePressure_written</string>
-    <string name="title_activity_tire_rotation_picture">tireRotation_picture</string>
-    <string name="title_activity_tire_rotation_video">tireRotation_video</string>
+    <string name="title_activity_change_tire_picture">Tire Change Picture</string>
+    <string name="title_activity_change_tire_video">Tire Change Video</string>
+    <string name="title_activity_change_tire_written">Tire Change Written</string>
+    <string name="title_activity_tire_pressure_picture">Tire Pressure Instructions</string>
+    <string name="title_activity_tire_pressure_video">Tire Pressure Video</string>
+    <string name="title_activity_tire_pressure_written">Tire Pressure Written</string>
+    <string name="title_activity_tire_rotation_picture">Tire Rotation Instructions</string>
+    <string name="title_activity_tire_rotation_video">Tire Rotation Video</string>
     <string name="title_activity_tire_rotation_written">tireRotation_written</string>
-    <string name="title_activity_oil_change_video">oilChange_video</string>
-    <string name="title_activity_oil_change_picture">oilChange_picture</string>
-    <string name="title_activity_oil_change_written">oilChange_written</string>
-    <string name="title_activity_engine">engine</string>
-    <string name="title_activity_oil_page">oilPage</string>
-    <string name="title_activity_fluid_leak_video">FluidLeakVideo</string>
-    <string name="title_activity_fluid_leak_picture">FluidLeakPicture</string>
+    <string name="title_activity_oil_change_video">Oil Change Video</string>
+    <string name="title_activity_oil_change_picture">Oil Change Instructions</string>
+    <string name="title_activity_oil_change_written">Oil Change_written</string>
+    <string name="title_activity_engine">Engine</string>
+    <string name="title_activity_oil_page">Oil</string>
+    <string name="title_activity_fluid_leak_video">Fluid Leak Video</string>
+    <string name="title_activity_fluid_leak_picture">Fluid Leak Instructions</string>
     <string name="title_activity_fluid_leak_written">FluidLeakWritten</string>
     <string name="title_activity_about">About</string>
 

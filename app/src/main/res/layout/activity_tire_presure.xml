@@ -6,21 +6,12 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.phat.biippo_test1.tirePressure">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Check Tire Pressure"
-        android:id="@+id/textview_checkTirePressure_title"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button_checkTirePressure_video"
-        android:layout_below="@+id/textview_checkTirePressure_title"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/button_video" />
 

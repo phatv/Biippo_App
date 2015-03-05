@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -31,7 +33,8 @@ public class changeTire extends ActionBarActivity implements View.OnClickListene
                 startActivity(new Intent("main.tire.changeTire.picture"));
                 break;
             case R.id.button_changeTire_video:
-                startActivity(new Intent("main.tire.changeTire.video"));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=joBmbh0AGSQ")));
+                Log.i("Video", "Video Playing....");
                 break;
         }
     }

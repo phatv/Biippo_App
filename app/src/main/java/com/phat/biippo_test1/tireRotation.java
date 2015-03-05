@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -31,7 +33,8 @@ public class tireRotation extends ActionBarActivity implements View.OnClickListe
                 startActivity(new Intent("main.tire.tireRotation.picture"));
                 break;
             case R.id.button_tireRotation_video:
-                startActivity(new Intent("main.tire.tireRotation.video"));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Elr8aki-TlQ")));
+                Log.i("Video", "Video Playing....");
                 break;
         }
     }

@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -28,7 +30,8 @@ public class FluidLeakActivity extends ActionBarActivity implements View.OnClick
                 startActivity(new Intent(FluidLeakActivity.this, FluidLeakPicture.class));
                 break;
             case R.id.button_jumpstart_video:
-                startActivity(new Intent(FluidLeakActivity.this, FluidLeakVideo.class));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=mZPFjDgT74I")));
+                Log.i("Video", "Video Playing....");
                 break;
         }
     }
