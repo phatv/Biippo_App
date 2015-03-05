@@ -52,6 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Straight Rotation was developed in the early years of radial tires. This rotation method simply replaces the front to rear and rear to front and is used for directional tread patterns."
         android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true"
         android:textSize="15sp" />
 

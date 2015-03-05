@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:logo="@drawable/ic_launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -102,7 +103,7 @@
             android:name=".tirePressure"
             android:label="@string/title_activity_tire_pressure" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure" />
+                <action android:name="main.tire.tirePressure" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -147,7 +148,7 @@
             android:name=".tirePressure_picture"
             android:label="@string/title_activity_tire_pressure_picture" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.picture" />
+                <action android:name="main.tire.tirePressure.picture" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -156,7 +157,7 @@
             android:name=".tirePressure_video"
             android:label="@string/title_activity_tire_pressure_video" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.video" />
+                <action android:name="main.tire.tirePressure.video" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -165,7 +166,7 @@
             android:name=".tirePressure_written"
             android:label="@string/title_activity_tire_pressure_written" >
             <intent-filter>
-                <action android:name="main.tire.tirePresure.written" />
+                <action android:name="main.tire.tirePressure.written" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
