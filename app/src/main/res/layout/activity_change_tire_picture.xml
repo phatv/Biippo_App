@@ -4,7 +4,262 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
+
     tools:context="com.phat.biippo_test1.changeTire_picture"
     android:id="@+id/change_tire">
 
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic1"
+                android:src="@drawable/changetire1"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 1 "
+                android:id="@+id/ChangeTireStep1"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Place a heavy object (e.g., rock, concrete, spare wheel, etc.) in front of the front and back tires. "
+                android:id="@+id/ChangeTireText1"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic2"
+                android:src="@drawable/changetire2"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 2 "
+                android:id="@+id/ChangeTireStep2"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Take out the spare tire and the jack. Place the jack under the frame near the tire that you are going to change. Ensure that the jack is in contact with the metal portion of your car's frame.
+
+    Many cars have molded plastic along the bottom. If you don't place the jack in the right spot, it will crack the plastic when you start lifting. If you're not sure about the right place to put the jack, read your owner's manual.
+    For most modern uni-body cars, there is a small notch or mark just behind the front wheel wells, or in front of the rear wheel wells where the jack is intended to be placed.
+    For most trucks or older cars that have a frame, look to place the jack on one of the beams of the frame just behind the front tire or in front of the rear tire.
+ "
+                android:id="@+id/ChangeTireText2"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic3"
+                android:src="@drawable/changetire3"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 3 "
+                android:id="@+id/ChangeTireStep3"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Raise the jack until it is supporting (but not lifting) the car. The jack should be firmly in place against the underside of the vehicle. Check to make sure that the jack is perpendicular to the ground.  "
+                android:id="@+id/ChangeTireText3"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic4"
+                android:src="@drawable/changetire4"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 4 "
+                android:id="@+id/ChangeTireStep4"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Remove the hub cap and loosen the nuts by turning counterclockwise. Don't take them all the way off; just break the resistance. By keeping the wheel on the ground when you first loosen the nuts, you'll make that you're turning the nuts instead of the wheel.
+
+    Use the wrench that came with your car or a standard cross wrench. Your wrench may have different sizes of openings on different ends. A correctly-sized wrench will slip easily over the nut, but will not rattle.
+    It can take quite a lot of force to break your lug nuts free. If all else fails, you can use your body weight or stomp on the wrench (be absolutely certain you are turning it the correct way - counter clockwise).
+    A cross wrench will give you much more torque than a standard single-handled wrench.
+ "
+                android:id="@+id/ChangeTireText4"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic5"
+                android:src="@drawable/changetire5"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 5 "
+                android:id="@+id/ChangeTireStep5"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Pump or crank the jack to lift the tire off the ground. You need to lift it high enough to remove the flat tire and replace it with a spare.
+
+    As you lift, make sure that the car is stable. If you notice any instability, lower the jack and fix the problem before fully lifting the car.
+
+    If you notice the jack lifting at an angle or leaning, lower and reposition it so that it can lift straight up.
+ "
+                android:id="@+id/ChangeTireText5"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic6"
+                android:src="@drawable/changetire6"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 6 "
+                android:id="@+id/ChangeTireStep6"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Remove the nuts the rest of the way. Turn them counterclockwise until they are loose. Repeat with all lug nuts, then remove the nuts completely. "
+                android:id="@+id/ChangeTireText6"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic7"
+                android:src="@drawable/changetire7"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 7 "
+                android:id="@+id/ChangeTireStep7"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Remove the tire. Place the flat tire under the vehicle so in the event of a jack failure the vehicle will fall on the old wheel, hopefully preventing injury. If the jack is placed on a flat, solid base, you shouldn't have any problems.
+
+    The tire might be stuck due to rust. You could try hitting the inside half of the tire with a rubber mallet to loosen the tire, or use the spare tire to hit the outside half.
+ "
+                android:id="@+id/ChangeTireText7"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
