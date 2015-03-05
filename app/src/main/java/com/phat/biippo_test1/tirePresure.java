@@ -1,8 +1,10 @@
 package com.phat.biippo_test1;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -30,7 +32,8 @@ public class tirePresure extends ActionBarActivity implements View.OnClickListen
                 startActivity(new Intent("main.tire.tirePresure.picture"));
                 break;
             case R.id.button_checkTirePressure_video:
-                startActivity(new Intent("main.tire.tirePresure.video"));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=QTst6ZdlVtg")));
+                Log.i("Video", "Video Playing....");
                 break;
         }
     }
