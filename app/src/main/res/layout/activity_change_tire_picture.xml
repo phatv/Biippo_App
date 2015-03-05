@@ -39,7 +39,7 @@
                 android:id="@+id/ChangeTireStep1"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                 android:text="Place a heavy object (e.g., rock, concrete, spare wheel, etc.) in front of the front and back tires. "
                 android:id="@+id/ChangeTireText1"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
 
             <ImageView
@@ -70,7 +70,7 @@
                 android:id="@+id/ChangeTireStep2"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
  "
                 android:id="@+id/ChangeTireText2"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
 
             <ImageView
@@ -106,7 +106,7 @@
                 android:id="@+id/ChangeTireStep3"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -117,7 +117,7 @@
                 android:text="Raise the jack until it is supporting (but not lifting) the car. The jack should be firmly in place against the underside of the vehicle. Check to make sure that the jack is perpendicular to the ground.  "
                 android:id="@+id/ChangeTireText3"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -136,7 +136,7 @@
                 android:id="@+id/ChangeTireStep4"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -151,7 +151,7 @@
  "
                 android:id="@+id/ChangeTireText4"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -170,7 +170,7 @@
                 android:id="@+id/ChangeTireStep5"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -186,7 +186,7 @@
  "
                 android:id="@+id/ChangeTireText5"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -205,7 +205,7 @@
                 android:id="@+id/ChangeTireStep6"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -216,7 +216,7 @@
                 android:text="Remove the nuts the rest of the way. Turn them counterclockwise until they are loose. Repeat with all lug nuts, then remove the nuts completely. "
                 android:id="@+id/ChangeTireText6"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -235,7 +235,7 @@
                 android:id="@+id/ChangeTireStep7"
                 android:layout_weight="0.84"
                 android:textColor="@android:color/holo_red_light"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -249,7 +249,7 @@
  "
                 android:id="@+id/ChangeTireText7"
                 android:layout_weight="0.84"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
 
             <ImageView

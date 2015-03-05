@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 
-public class tirePresure extends ActionBarActivity implements View.OnClickListener{
+public class tirePressure extends ActionBarActivity implements View.OnClickListener{
 
     ImageButton picture, video;
 
@@ -29,7 +29,7 @@ public class tirePresure extends ActionBarActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button_checkTirePressure_picture:
-                startActivity(new Intent("main.tire.tirePresure.picture"));
+                startActivity(new Intent("main.tire.tirePressure.picture"));
                 break;
             case R.id.button_checkTirePressure_video:
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=QTst6ZdlVtg")));

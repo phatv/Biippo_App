@@ -99,8 +99,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tirePresure"
-            android:label="@string/title_activity_tire_presure" >
+            android:name=".tirePressure"
+            android:label="@string/title_activity_tire_pressure" >
             <intent-filter>
                 <action android:name="main.tire.tirePresure" />
 
@@ -144,8 +144,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tirePresure_picture"
-            android:label="@string/title_activity_tire_presure_picture" >
+            android:name=".tirePressure_picture"
+            android:label="@string/title_activity_tire_pressure_picture" >
             <intent-filter>
                 <action android:name="main.tire.tirePresure.picture" />
 
@@ -153,8 +153,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tirePresure_video"
-            android:label="@string/title_activity_tire_presure_video" >
+            android:name=".tirePressure_video"
+            android:label="@string/title_activity_tire_pressure_video" >
             <intent-filter>
                 <action android:name="main.tire.tirePresure.video" />
 
@@ -162,8 +162,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tirePresure_written"
-            android:label="@string/title_activity_tire_presure_written" >
+            android:name=".tirePressure_written"
+            android:label="@string/title_activity_tire_pressure_written" >
             <intent-filter>
                 <action android:name="main.tire.tirePresure.written" />
 

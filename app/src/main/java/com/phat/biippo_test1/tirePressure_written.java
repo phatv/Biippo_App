@@ -6,19 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class tirePresure_video extends ActionBarActivity {
+public class tirePressure_written extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tire_presure_video);
+        setContentView(R.layout.activity_tire_presure_written);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_tire_presure_video, menu);
+        getMenuInflater().inflate(R.menu.menu_tire_presure_written, menu);
         return true;
     }
 

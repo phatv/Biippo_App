@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="4-Wheel Drive Vehicles equipped with permanent 4-Wheel Drive and those with &quot;on Command&quot; 4-Wheel Drive and driven mainly in 4-Wheel mode, are best suited to a four tire cross rotation. With this pattern, tires from both axles are crossed and installed on the opposing axle. "
         android:id="@+id/textView8"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:layout_below="@+id/textView9"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -34,19 +34,17 @@
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="20dp"
-        android:textColor="@android:color/holo_red_light" />
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Stright Rotation"
+        android:text="Straight Rotation"
         android:id="@+id/textView10"
         android:layout_below="@+id/textView8"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="@android:color/holo_red_light"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textIsSelectable="false" />
 
     <TextView
@@ -54,8 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Straight Rotation was developed in the early years of radial tires. This rotation method simply replaces the front to rear and rear to front and is used for directional tread patterns."
         android:id="@+id/textView11"
-        android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
 </RelativeLayout>

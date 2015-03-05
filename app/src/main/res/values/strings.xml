@@ -36,14 +36,14 @@
     </string>
     <string name="title_activity_activity_tire">Tires</string>
     <string name="title_activity_change_tire">Change Tire</string>
-    <string name="title_activity_tire_presure">Tire Pressure</string>
+    <string name="title_activity_tire_pressure">Tire Pressure</string>
     <string name="title_activity_tire_rotation">Tire Rotation</string>
     <string name="title_activity_change_tire_picture">Change Tire Picture</string>
     <string name="title_activity_change_tire_video">changeTire_video</string>
     <string name="title_activity_change_tire_written">changeTire_written</string>
-    <string name="title_activity_tire_presure_picture">tirePresure_picture</string>
-    <string name="title_activity_tire_presure_video">tirePresure_video</string>
-    <string name="title_activity_tire_presure_written">tirePresure_written</string>
+    <string name="title_activity_tire_pressure_picture">tirePressure_picture</string>
+    <string name="title_activity_tire_pressure_video">tirePressure_video</string>
+    <string name="title_activity_tire_pressure_written">tirePressure_written</string>
     <string name="title_activity_tire_rotation_picture">tireRotation_picture</string>
     <string name="title_activity_tire_rotation_video">tireRotation_video</string>
     <string name="title_activity_tire_rotation_written">tireRotation_written</string>

@@ -23,7 +23,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/picture1"
-                android:layout_centerHorizontal="true"
                 android:src="@drawable/leak1"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="0.22" />
@@ -106,7 +105,7 @@ can cause engine damage. New oil has a yellowish brown color, while older oil lo
                 android:text="
 4.Brake Fluid \n Brake fluid is clear to yellowish in color and has a medium thickness and a slightly oily
 feel. If you see a puddle of liquid with these properties under your car, have your car towed to a mechanic
-immdiately. Get your car towned even if you just suspect you're leaking brake fluid."
+immediately. Get your car towed even if you just suspect you're leaking brake fluid."
                 android:id="@+id/textView4"
                 android:layout_below="@+id/picture4"
                 android:layout_alignParentRight="true"
