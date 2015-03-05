@@ -146,9 +146,8 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Remove the hub cap and loosen the nuts by turning counterclockwise. Don't take them all the way off; just break the resistance. By keeping the wheel on the ground when you first loosen the nuts, you'll make that you're turning the nuts instead of the wheel.
 
-    Use the wrench that came with your car or a standard cross wrench. Your wrench may have different sizes of openings on different ends. A correctly-sized wrench will slip easily over the nut, but will not rattle.
-    It can take quite a lot of force to break your lug nuts free. If all else fails, you can use your body weight or stomp on the wrench (be absolutely certain you are turning it the correct way - counter clockwise).
-    A cross wrench will give you much more torque than a standard single-handled wrench.
+    Use the wrench that came with your car or a standard cross wrench.
+    It can take quite a lot of force to break your lug nuts free. .
  "
                 android:id="@+id/ChangeTireText4"
                 android:layout_weight="0.84"
@@ -183,7 +182,7 @@
 
     As you lift, make sure that the car is stable. If you notice any instability, lower the jack and fix the problem before fully lifting the car.
 
-    If you notice the jack lifting at an angle or leaning, lower and reposition it so that it can lift straight up.
+
  "
                 android:id="@+id/ChangeTireText5"
                 android:layout_weight="0.84"
@@ -253,7 +252,154 @@
                 android:textSize="20dp" />
 
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic8"
+                android:src="@drawable/changetire8"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 8 "
+                android:id="@+id/ChangeTireStep8"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Place the spare tire on the hub. Take care to align the rim of the spare tire with the wheel bolts, then put on the lug nuts.  "
+                android:id="@+id/ChangeTireText8"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic9"
+                android:src="@drawable/changetire9"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 9 "
+                android:id="@+id/ChangeTireStep9"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tighten the nuts by hand until they are all snug. They should turn easily at first. Avoid using so much force that you risk upsetting the jack. You will tighten the lug nuts again once the car is down and there is no risk of it falling.  "
+                android:id="@+id/ChangeTireText9"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic10"
+                android:src="@drawable/changetire10"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 10 "
+                android:id="@+id/ChangeTireStep10"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Lower the car without applying full weight on the tire. Tighten the nuts as much as possible.   "
+                android:id="@+id/ChangeTireText10"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic11"
+                android:src="@drawable/changetire11"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 11 "
+                android:id="@+id/ChangeTireStep11"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Lower the car to the ground fully and remove the jack. Finish tightening the nuts and replace the hubcap.    "
+                android:id="@+id/ChangeTireText11"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ChangeTirePic12"
+                android:src="@drawable/changetire12"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.22" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Step 12 "
+                android:id="@+id/ChangeTireStep12"
+                android:layout_weight="0.84"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines = "100"
+                android:scrollbars = "vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Put the old tire in your trunk and take it to a mechanic. Get an estimate for the cost of repair. Small punctures can usually be repaired for less than $15. If the tire is not repairable, they can dispose of it properly and sell you a replacement.  "
+                android:id="@+id/ChangeTireText12"
+                android:layout_weight="0.84"
+                android:textSize="20dp" />
 
 
 
