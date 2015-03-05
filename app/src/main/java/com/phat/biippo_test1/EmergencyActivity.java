@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 
 public class EmergencyActivity extends ActionBarActivity implements View.OnClickListener{
 
-    ImageButton button_jumpstart, button_fluidleak, button_warninglights;
+    ImageButton button_jumpstart, button_fluidleak;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +22,6 @@ public class EmergencyActivity extends ActionBarActivity implements View.OnClick
         button_jumpstart.setOnClickListener(this);
         button_fluidleak = (ImageButton)findViewById(R.id.button_fluidleak);
         button_fluidleak.setOnClickListener(this);
-        button_warninglights = (ImageButton)findViewById(R.id.button_warninglights);
-        button_warninglights.setOnClickListener(this);
     }
 
 
@@ -59,10 +57,6 @@ public class EmergencyActivity extends ActionBarActivity implements View.OnClick
         startActivity(new Intent("com.phat.fluidleak"));
     }
 
-    private void warninglights_click()
-    {
-        startActivity(new Intent("com.phat.warninglights"));
-    }
 
     @Override
     public void onClick(View v) {
@@ -73,9 +67,6 @@ public class EmergencyActivity extends ActionBarActivity implements View.OnClick
                 break;
             case R.id.button_fluidleak:
                 fluidleak_click();
-                break;
-            case R.id.button_warninglights:
-                warninglights_click();
                 break;
         }
     }
