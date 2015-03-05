@@ -18,20 +18,21 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_changeTire_pictures"
+        android:id="@+id/button_changeTire_video"
+        android:src="@drawable/button_video"
         android:layout_below="@+id/textview_changeTire_title"
         android:layout_marginTop="40dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/button_instructions" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button_changeTire_video"
-        android:src="@drawable/button_video"
-        android:layout_below="@+id/button_changeTire_pictures"
+        android:id="@+id/button_changeTire_pictures"
+        android:layout_below="@+id/button_changeTire_video"
         android:layout_marginTop="20dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/button_instructions" />
+
 
 </RelativeLayout>
